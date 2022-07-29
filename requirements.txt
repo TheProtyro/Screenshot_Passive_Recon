@@ -1,0 +1,6 @@
+fake_useragent==0.1.11
+ipwhois==1.2.0
+requests==2.27.1
+rich==12.5.1
+selenium==4.0.0a1
+whois==0.9.16
