@@ -167,7 +167,7 @@ if __name__ == "__main__":
     console = Console()
 
     parser = argparse.ArgumentParser(description="Passive reconnaissance tool")
-    parser.add_argument("-d", "--domain", help="Target domain", type=str)
+    parser.add_argument("-d", "--domain", help="Target domain", type=str, required=True)
     args = parser.parse_args()
 
     domain = args.domain
